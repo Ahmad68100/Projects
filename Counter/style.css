@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* height: 100vh; */
+}
+.container{
+    width: 600px;
+    font-weight: bold;
+    /* background-color: aliceblue; */
+}
+p{
+    font-size: 50px;
+    margin-left: 70px;
+    /* color: rgb(130, 246, 246); */
+    /* background-color: rgb(195, 224, 224); */
+}
+p:hover{
+    color: rgb(172, 168, 168);
+}
+h2{
+    font-size: 40px;
+}

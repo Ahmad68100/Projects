@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.azad
+{
+    font-size: 30px;
+}
+/* @media(min-width:50px)and ( max-width:800px); */
+.img
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    color: white;
+    padding-left: 40px;
+    justify-content: space-around;
+
+}
+img
+{
+    width: 50px;
+    height: 50px;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    /* width: 100%; */
+}
+.head{
+    color: white;
+}
+.time{
+    color: #fff;
+}
+.nav {
+    background-color: rgb(45, 7, 80);
+    color: #fff;
+}
+.nav1
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+@media(min-width:250px) and (max-width:1100px);
+
+.banner
+{
+    width: 600px;
+    padding-left: 40px;
+}
+
+.banner
+{
+    width: 600px;
+    padding-left: 40px;
+
+}
+.gg
+{
+    width: 200%;
+    height: 30vh;
+}
+.grid-p
+{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+   gap: 10px;
+   /* padding: 20px; */
+  
+}
+
+.griditem
+{
+   
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.349);
+
+   height: 400px;
+}
+.imge1
+{
+    background: url(img\ 1.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.pu
+{
+    background-color: rgb(115, 204, 174);
+    height: 40px;
+   line-height: 2.5;
+}
+.p1
+{
+    background-color:rgb(160, 158, 158);
+    height: 40px;
+   line-height: 2.5;
+}
+.p2
+{
+    background-color: rgb(170, 95, 68);
+    height: 40px;
+    line-height: 2.5;
+}
+.pera
+{
+    background-color: white;
+}
+.imge1
+{
+    background: url(img\ 1.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.imge2
+{
+    background: url(img2.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.imge3
+{
+    background: url(img3.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.imge4
+{
+    background: url(img4.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.imge5
+{
+    background: url(img5.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.imge6
+{
+    background: url(img6.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.ok
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+b{
+    color: rgba(0, 0, 255, 0.438);
+}
+.conter
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 15rem;
+    font-size: large;
+}
+.p22 
+{
+    margin-left: 80px;
+    font-size: 20px;
+}
+.p21
+{
+    font-size: 20px;
+}
+.container1
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(65, 63, 63);
+    font-weight: bolder;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+}
+.p23
+{
+    margin-top: 6%;
+}
+.p24
+{
+    margin-top: 6%;  
+}
+.p25
+{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    height: 30px;
+}

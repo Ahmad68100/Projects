@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="day12.css">
+</head>
+<body>
+    <div class="nav">
+        <h3>LOGO</h3>
+        <div class="hamburger" onclick="OpenMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="nav-items" id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <div class="hero-container">
+        <div class="flex-items">
+            <h1 class="flex-item-1">I'm a web Developer</h1>
+            <p class="felx-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam quae, eius et adipisci repellendus ipsum modi quisquam, vel repellat qui voluptatem exercitationem corporis amet explicabo accusamus in animi unde?</p>
+            <button class="flex-item-1">Learn More</button>
+        </div>
+        <div class="flex-items"></div>
+    </div>
+    <div class="portfolio-container">
+        <h3>Portfolio</h3>
+        <div class="portfolio-grid">
+            <div class="grid-item grid-item-1"></div>
+            <div class="grid-item grid-item-2"></div>
+            <div class="grid-item grid-item-3"></div>
+            <div class="grid-item grid-item-4"></div>
+            <div class="grid-item grid-item-5"></div>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-item flex-item-1"></div>
+            <div class="flex-item flex-item-2"></div>
+            <div class="flex-item flex-item-3"></div>
+            <div class="flex-item flex-item-4"></div>
+            <div class="flex-item flex-item-5"></div>
+        </div>
+    </div>
+    <div class="about">
+        <h3>About</h3>
+        <div class="about-flex">
+            <div class="about-item">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolorum eveniet, dicta sapiente praesentium quasi voluptatibus distinctio assumenda in magni ipsam repellat expedita eum quia modi dignissimos non ratione ex aliquam ullam. Atque nostrum praesentium cumque deleniti perferendis impedit dolore? Est aspernatur exercitationem quas pariatur ex reiciendis cumque similique beatae.
+                </p>
+            </div>
+            <div class="about-item">
+                <img src="photo-1553095066-5014bc7b7f2d.jpg" width="200px" alt="person">
+            </div>
+        </div>
+    </div>
+    <div class="fotter">
+        <h1 class="h1">CONTACT</h1>
+    </div>
+    <form>
+        <div class="contact-p">
+        <div class="contact">
+            <table>
+                <tr>
+                    <label for="name">Name</label>
+                     <input type="text" id="name" placeholder="Enter your name">
+                </tr>
+            </table>
+        <table>
+            <tr>
+                <label for="mobile">Mobile</label>
+                <input type="text" id="mobile" placeholder="Enter your Phone number">
+            </tr>
+        </table>
+            <table>
+                <tr>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Enter your email">
+                </tr>
+            </table>
+             <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">FeMale</label>
+            <input type="radio" name="gender" id="female">
+    
+        </div>
+    </div>
+    <div class="footer">
+        <h2>ABOUT</h2>
+        <div class="about">
+            <p>All rights are reserved by the owner Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo eius sunt aliquam veritatis. Atque cumque delectus veritatis, ratione blanditiis debitis exercitationem quam? Totam earum dolorem eaque soluta enim obcaecati doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatum adipisci consectetur quibusdam eveniet quas cum voluptatibus consequatur. Mollitia esse molestiae quisquam hic inventore. Quasi, beatae. Atque labore corrupti sit. </p>
+        </div>
+    </div>
+    </form>
+
+    <script>
+        function OpenMenu() {
+            document.getElementById('menu').classList.toggle('menu');
+        }
+    </script>
+
+</body>
+</html>
